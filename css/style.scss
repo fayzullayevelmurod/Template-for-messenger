@@ -197,6 +197,17 @@ address {
         gap: 25px;
     }
 
+    input {
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 19.2px;
+        color: #ACACAC;
+        padding: 15px 20px;
+        border-radius: 10px;
+        border: none;
+
+    }
+
     label {
         padding: 20px 20px 20px 22px;
         border-radius: 10px;
@@ -217,6 +228,75 @@ address {
             color: #000;
             @include flex-center();
             gap: 20px;
+        }
+    }
+
+    .qr {
+        margin: 25px 0;
+        padding: 15px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+        background: #fff;
+        border-radius: 10px;
+
+        span {
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 19.2px;
+            color: #000000;
+        }
+    }
+
+    .text_block {
+        padding: 15px 32px 47px 32px;
+        background: #fff;
+        border-radius: 10px;
+    }
+
+    .list {
+        margin: 25px 0 ;
+        padding: 15px 32px;
+        border-radius: 10px;
+        background: #fff;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        
+        li {
+            list-style-type: decimal;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 16.8px;
+            color: #000;
+        }
+    }
+
+    .text_block {
+        margin-bottom: 25px;
+
+        p {
+            margin-bottom: 13px;
+        }
+
+        input {
+            width: 18px;
+            height: 18px;
+            accent-color: #0000;
+        }
+
+        label {
+            padding: 0;
+            cursor: pointer;
+            user-select: none;
+            @include flex-center();
+            gap: 10px;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 19.2px;
+            color: #000000;
+
         }
     }
 }

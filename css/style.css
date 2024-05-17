@@ -149,6 +149,15 @@ address {
   flex-direction: column;
   gap: 25px;
 }
+.select_groups input {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19.2px;
+  color: #ACACAC;
+  padding: 15px 20px;
+  border-radius: 10px;
+  border: none;
+}
 .select_groups label {
   padding: 20px 20px 20px 22px;
   border-radius: 10px;
@@ -170,4 +179,66 @@ address {
   display: flex;
   align-items: center;
   gap: 20px;
+}
+.select_groups .qr {
+  margin: 25px 0;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  background: #fff;
+  border-radius: 10px;
+}
+.select_groups .qr span {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.2px;
+  color: #000000;
+}
+.select_groups .text_block {
+  padding: 15px 32px 47px 32px;
+  background: #fff;
+  border-radius: 10px;
+}
+.select_groups .list {
+  margin: 25px 0;
+  padding: 15px 32px;
+  border-radius: 10px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.select_groups .list li {
+  list-style-type: decimal;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.8px;
+  color: #000;
+}
+.select_groups .text_block {
+  margin-bottom: 25px;
+}
+.select_groups .text_block p {
+  margin-bottom: 13px;
+}
+.select_groups .text_block input {
+  width: 18px;
+  height: 18px;
+  accent-color: rgba(0, 0, 0, 0);
+}
+.select_groups .text_block label {
+  padding: 0;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.2px;
+  color: #000000;
 }/*# sourceMappingURL=style.css.map */
