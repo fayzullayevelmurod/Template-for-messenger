@@ -80,7 +80,7 @@ address {
 }
 
 .main_container {
-  max-width: 1200px;
+  max-width: 660px;
   padding: 30px;
   margin: 0 auto;
 }
@@ -153,10 +153,16 @@ address {
   font-size: 16px;
   font-weight: 600;
   line-height: 19.2px;
-  color: #ACACAC;
+  color: #000;
   padding: 15px 20px;
   border-radius: 10px;
   border: none;
+}
+.select_groups input::-moz-placeholder {
+  color: #ACACAC;
+}
+.select_groups input::placeholder {
+  color: #ACACAC;
 }
 .select_groups label {
   padding: 20px 20px 20px 22px;
